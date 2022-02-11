@@ -1,0 +1,47 @@
+.cube {
+    position: relative;
+    width: 200px;
+    height:200px;
+    transform-style: preserve-3d;
+    margin-top: 100px;
+    left: 35%;
+}
+
+.cube > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    line-height: 200px;
+    opacity: 5;
+}
+
+.front {
+    transform: translateZ(100px);
+    background: red;
+}
+
+.back {
+    transform: translateZ(100px);
+    background: blue;
+}
+
+.top {
+    transform: translateZ(100px);
+    background: purple;
+}
+
+.right {
+    transform: translateZ(100px);
+    background: green;
+}
+
+.left {
+    transform: translateZ(100px);
+    background: yellow;
+}
+
+.bottom {
+    transform: translateZ(100px);
+    background: orange;
+}
