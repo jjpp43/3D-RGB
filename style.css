@@ -3,8 +3,10 @@
     width: 200px;
     height:200px;
     transform-style: preserve-3d;
-    margin-top: 100px;
+    margin-top: 200px;
     left: 35%;
+	font-weight: 700;
+	transform: rotateX(-20deg) rotateY(-20deg) translateZ(200px);
 }
 
 .cube > div {
@@ -13,35 +15,36 @@
     position: absolute;
     text-align: center;
     line-height: 200px;
-    opacity: 5;
+    opacity: 0.5;
 }
 
 .front {
-    transform: translateZ(100px);
+    transform: rotateY(0deg) translateZ(100px);
     background: red;
+	opacity: 0.9;
 }
 
 .back {
-    transform: translateZ(100px);
+    transform: rotateY(180deg) translateZ(100px);
     background: blue;
 }
 
 .top {
-    transform: translateZ(100px);
-    background: purple;
+    transform: rotateX(90deg) translateZ(100px);
+    background: lightcoral;
 }
 
 .right {
-    transform: translateZ(100px);
+    transform: rotateY(90deg) translateZ(100px);
     background: green;
 }
 
 .left {
-    transform: translateZ(100px);
+    transform: rotateY(-90deg) translateZ(100px);
     background: yellow;
 }
 
 .bottom {
-    transform: translateZ(100px);
+    transform: rotateX(-90deg) translateZ(100px);
     background: orange;
 }
