@@ -1,12 +1,12 @@
 .cube {
     position: relative;
-    width: 200px;
-    height:200px;
+    width: 100px;
+    height:100px;
     transform-style: preserve-3d;
     margin-top: 200px;
     left: 35%;
 	font-weight: 700;
-	transform: rotateX(-20deg) rotateY(-20deg) translateZ(200px);
+	transform: rotateX(-20deg) rotateY(-20deg) translateZ(100px);
 }
 
 .cube > div {
@@ -14,14 +14,13 @@
     height: 100%;
     position: absolute;
     text-align: center;
-    line-height: 200px;
+    line-height: 80px;
     opacity: 0.5;
 }
 
 .front {
     transform: rotateY(0deg) translateZ(100px);
     background: red;
-	opacity: 0.9;
 }
 
 .back {
